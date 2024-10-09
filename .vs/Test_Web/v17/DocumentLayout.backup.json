@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\Test_Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93A162CA-91FA-38DD-6C28-E2361B5678FE}|Assembly-CSharp.csproj|D:\\UnityProjects\\Test_Web\\assets\\scripts\\loadsprites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A162CA-91FA-38DD-6C28-E2361B5678FE}|Assembly-CSharp.csproj|d:\\unityprojects\\test_web\\assets\\scripts\\loadsprites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A162CA-91FA-38DD-6C28-E2361B5678FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadsprites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99F89455-0931-A94A-0CE9-4CDAC9755827}|Unity.Addressables.Editor.csproj|d:\\unityprojects\\test_web\\library\\packagecache\\com.unity.addressables@1.22.2\\editor\\build\\buildpipelinetasks\\buildlayoutgenerationtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{99F89455-0931-A94A-0CE9-4CDAC9755827}|Unity.Addressables.Editor.csproj|D:\\UnityProjects\\Test_Web\\library\\packagecache\\com.unity.addressables@1.22.2\\editor\\build\\buildpipelinetasks\\buildlayoutgenerationtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99F89455-0931-A94A-0CE9-4CDAC9755827}|Unity.Addressables.Editor.csproj|solutionrelative:library\\packagecache\\com.unity.addressables@1.22.2\\editor\\build\\buildpipelinetasks\\buildlayoutgenerationtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D2592A4-86C0-CE8D-F577-B286F802B40D}|Unity.Addressables.csproj|d:\\unityprojects\\test_web\\library\\packagecache\\com.unity.addressables@1.22.2\\runtime\\addressablesimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D2592A4-86C0-CE8D-F577-B286F802B40D}|Unity.Addressables.csproj|D:\\UnityProjects\\Test_Web\\library\\packagecache\\com.unity.addressables@1.22.2\\runtime\\addressablesimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D2592A4-86C0-CE8D-F577-B286F802B40D}|Unity.Addressables.csproj|solutionrelative:library\\packagecache\\com.unity.addressables@1.22.2\\runtime\\addressablesimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.addressables@1.22.2\\Runtime\\AddressablesImpl.cs",
               "ViewState": "AgIAAMMAAAAAAAAAAAAUwNMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T17:51:37.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T17:51:37.065Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.addressables@1.22.2\\Editor\\Build\\BuildPipelineTasks\\BuildLayoutGenerationTask.cs",
               "ViewState": "AgIAAEMEAAAAAAAAAAAAwLsEAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T17:49:24.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T17:49:24.409Z"
             },
             {
               "$type": "Document",
@@ -62,7 +60,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\LoadSprites.cs",
               "ToolTip": "D:\\UnityProjects\\Test_Web\\Assets\\Scripts\\LoadSprites.cs",
               "RelativeToolTip": "Assets\\Scripts\\LoadSprites.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAkwCgAAABnAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T14:13:21.615Z",
               "EditorCaption": ""

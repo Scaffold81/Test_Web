@@ -7,8 +7,10 @@ namespace TestWeb.MyRefactoring
 {
     public class LoadSprites : MonoBehaviour
     {
-        public SpriteRenderer[] spriteRenderer;
-        public string[] strings;
+        [SerializeField]
+        private SpriteRenderer[] spriteRenderer;
+        [SerializeField]
+        private string[] strings;
 
         private Dictionary<string, Sprite> spriteCache = new Dictionary<string, Sprite>();
 

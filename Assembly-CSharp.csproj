@@ -100,7 +100,6 @@
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\AddressableAssetsData\link.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
@@ -975,10 +974,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.Play.Publisher.Editor.csproj">
-      <Project>{ADDE752E-65F7-B91C-FED4-82D1BB4DA813}</Project>
-      <Name>Unity.Play.Publisher.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
       <Project>{4746D1BC-8132-5504-F8AA-9C9BF09FA1F3}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
@@ -1158,6 +1153,10 @@
     <ProjectReference Include="Unity.ScriptableBuildPipeline.Editor.csproj">
       <Project>{0F9D68C7-1154-C6E2-E7F7-A5D51CC2F7C6}</Project>
       <Name>Unity.ScriptableBuildPipeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Play.Publisher.Editor.csproj">
+      <Project>{ADDE752E-65F7-B91C-FED4-82D1BB4DA813}</Project>
+      <Name>Unity.Play.Publisher.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
       <Project>{EA61AE54-DE0E-FB13-2371-23D063979908}</Project>
