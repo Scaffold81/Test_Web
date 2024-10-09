@@ -1,4 +1,4 @@
-using UnityEngine;
+п»їusing UnityEngine;
 using UnityEngine.EventSystems;
 
 namespace TestWeb.MyRefactoring.UI
@@ -7,11 +7,11 @@ namespace TestWeb.MyRefactoring.UI
     {
         private Animator animator;
         [SerializeField]
-        private LoadSprites loadSprites;// лучше ручками назначить в инспекторе чем искать по всей сцене
+        private LoadSprites loadSprites;// Р»СѓС‡С€Рµ СЂСѓС‡РєР°РјРё РЅР°Р·РЅР°С‡РёС‚СЊ РІ РёРЅСЃРїРµРєС‚РѕСЂРµ С‡РµРј РёСЃРєР°С‚СЊ РїРѕ РІСЃРµР№ СЃС†РµРЅРµ
 
         private void Awake()
         {
-            animator = GetComponent<Animator>(); // ссылку на компомент получаем в Awake.
+            animator = GetComponent<Animator>(); // СЃСЃС‹Р»РєСѓ РЅР° РєРѕРјРїРѕРјРµРЅС‚ РїРѕР»СѓС‡Р°РµРј РІ Awake.
         }
 
         public void OnPointerClick(PointerEventData eventData)

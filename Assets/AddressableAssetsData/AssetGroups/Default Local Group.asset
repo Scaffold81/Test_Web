@@ -17,60 +17,71 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 52e2eecb57d38ca44a2387ded6ff6ca1
   m_SerializeEntries:
-  - m_GUID: 03014ad38f29a464cb30bae53cd45421
-    m_Address: Assets/Art/Images/Image 6.jpg
+  - m_GUID: 064b2258643df644d8930e442ea5c86e
+    m_Address: Image7
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1b87de21c89d0ab4290e5c004bd21f1c
-    m_Address: "Assets/Art/Images/\u0430\u0442\u043B\u0430\u0441.spriteatlasv2"
+  - m_GUID: 1af03848e19cae94c84b46cbe11ad298
+    m_Address: Image5
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1fc5b3ca051cfea4aa39e156f7ec9ba5
-    m_Address: Assets/Art/Images/Image 10.jpg
+  - m_GUID: 1dd8ac7a96cfbbc46a9cf691e503e9d5
+    m_Address: Image8
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4919f319bc09a0a4780558f7e233c626
-    m_Address: Assets/Art/Images/Image 4.jpg
+  - m_GUID: 37eae25e3c4e68b49b9240fa9f9a4a50
+    m_Address: Image9
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6a9d39f6cc2758b4da22631e2350189f
-    m_Address: Assets/Art/Images/Image 7.jpg
+  - m_GUID: 6d6dfb9d328a4e849b185adb552ed08e
+    m_Address: Image10
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6b2f6b69b32b18f4caf8f48d7a4af7be
-    m_Address: Assets/Art/Images/Image 5.jpg
+  - m_GUID: 7158f39d3a3d0ab458096eb36777ffc9
+    m_Address: ColorRectAtlas
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7c008ba782ca05640ace614d27f96a51
-    m_Address: Assets/Art/Images/Image 9.jpg
+  - m_GUID: b2601aa1a53e5a74aa6d278452f22d99
+    m_Address: Image3
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: baee2bb1bf057ca438dc62a2772432c1
-    m_Address: Assets/Art/Images/Image 2.jpg
+  - m_GUID: b6b82664711b5864d9cd4226fb249ea7
+    m_Address: Image4
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e8db5cf81db8beb41b18e707bbb2ac57
-    m_Address: Assets/Art/Images/Image 1.jpg
+  - m_GUID: c21409c9fc2872b4ea56c9fbf981e3af
+    m_Address: Image2
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f2712058d37c60d428855b7ff05bb69b
-    m_Address: Assets/Art/Images/Image 8.jpg
+  - m_GUID: e58c41faaba35604f92369b2b4991ebd
+    m_Address: Image6
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: fa7f6b0ae96f98449a354405661c5dcd
-    m_Address: Assets/Art/Images/Image 3.jpg
+  - m_GUID: ebe124f4076598a49a12b845108d35da
+    m_Address: Image1
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: c213bb556690c11468a75c39b671c3b0, type: 2}

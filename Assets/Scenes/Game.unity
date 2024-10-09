@@ -409,16 +409,16 @@ MonoBehaviour:
   - {fileID: 1029672305}
   - {fileID: 469538906}
   strings:
-  - Assets/Art/Images/Image 1.jpg
-  - Assets/Art/Images/Image 2.jpg
-  - Assets/Art/Images/Image 3.jpg
-  - Assets/Art/Images/Image 4.jpg
-  - Assets/Art/Images/Image 5.jpg
-  - Assets/Art/Images/Image 6.jpg
-  - Assets/Art/Images/Image 7.jpg
-  - Assets/Art/Images/Image 8.jpg
-  - Assets/Art/Images/Image 9.jpg
-  - Assets/Art/Images/Image 10.jpg
+  - Image1
+  - Image2
+  - Image3
+  - Image4
+  - Image5
+  - Image6
+  - Image7
+  - Image8
+  - Image9
+  - Image10
 --- !u!1 &266573016
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,9 +454,9 @@ RectTransform:
   - {fileID: 1874359672}
   m_Father: {fileID: 1450087577}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -488.95}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 100}
   m_SizeDelta: {x: 383.06, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &266573018
