@@ -1,22 +1,46 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-public class LoadSprites : MonoBehaviour {
-    public GameObject[] spriteRenderer;
-    public string[] strings;
+namespace TestWeb.MyRefactoring
+{
+    public class LoadSprites : MonoBehaviour
+    {
+        public SpriteRenderer[] spriteRenderer;
+        public string[] strings;
 
+        private Dictionary<string, Sprite> spriteCache = new Dictionary<string, Sprite>();
 
-    public void load() {
-        for (int i = 0; i < spriteRenderer.Length; i++) {
-            StartCoroutine(LoadSprite(spriteRenderer[i].GetComponent<SpriteRenderer>(), i));
+        public void Load()
+        {
+            for (int i = 0; i < spriteRenderer.Length; i++)
+            {
+                StartCoroutine(LoadSprite(spriteRenderer[i], i));
+            }
+        }
+
+        private IEnumerator LoadSprite(SpriteRenderer spriteRenderer, int number)
+        {
+            if (spriteCache.ContainsKey(strings[number]))
+            {
+                spriteRenderer.sprite = spriteCache[strings[number]];
+            }
+            else
+            {
+                var task = Addressables.LoadAssetAsync<Sprite>(strings[number]);
+                yield return task;
+                if (task.Status == UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationStatus.Succeeded)
+                {
+                    Sprite loadedSprite = task.Result;
+                    spriteCache[strings[number]] = loadedSprite; 
+                    spriteRenderer.sprite = loadedSprite;
+                }
+                else
+                {
+                    Debug.LogError("Failed to load sprite for spriteRenderer: " + spriteRenderer.name);
+                }
+            }
         }
     }
-
-    IEnumerator LoadSprite(SpriteRenderer spriteRenderer, int number) {
-        var task = Addressables.LoadAssetAsync<Sprite>(strings[number]);
-        yield return task;
-        spriteRenderer.sprite = task.Result;
-    }
-
 }

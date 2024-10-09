@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\Test_Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93A162CA-91FA-38DD-6C28-E2361B5678FE}|Assembly-CSharp.csproj|d:\\unityprojects\\test_web\\assets\\scripts\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A162CA-91FA-38DD-6C28-E2361B5678FE}|Assembly-CSharp.csproj|d:\\unityprojects\\test_web\\assets\\scripts\\loadsprites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A162CA-91FA-38DD-6C28-E2361B5678FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadsprites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A162CA-91FA-38DD-6C28-E2361B5678FE}|Assembly-CSharp.csproj|D:\\UnityProjects\\Test_Web\\assets\\scripts\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A162CA-91FA-38DD-6C28-E2361B5678FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoadSprites.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Test_Web\\Assets\\Scripts\\LoadSprites.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadSprites.cs",
+              "ToolTip": "D:\\UnityProjects\\Test_Web\\Assets\\Scripts\\LoadSprites.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoadSprites.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwCMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:13:21.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Button.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Test_Web\\Assets\\Scripts\\Button.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Button.cs",
               "ToolTip": "D:\\UnityProjects\\Test_Web\\Assets\\Scripts\\Button.cs",
               "RelativeToolTip": "Assets\\Scripts\\Button.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T07:28:18.755Z",
               "EditorCaption": ""

@@ -1,26 +1,29 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class CustomButton : MonoBehaviour, IPointerClickHandler
+namespace TestWeb.MyRefactoring.UI
 {
-    private Animator animator;
-    [SerializeField]
-    private LoadSprites loadSprites;// лучше ручками назначить в инспекторе чем искать по всей сцене
-    
-    private void Awake()
+    public class CustomButton : MonoBehaviour, IPointerClickHandler
     {
-        animator = GetComponent<Animator>(); // ссылку на компомент получаем в Awake.
-    }
+        private Animator animator;
+        [SerializeField]
+        private LoadSprites loadSprites;// лучше ручками назначить в инспекторе чем искать по всей сцене
 
-    public void OnPointerClick(PointerEventData eventData) 
-    {
-        OnClick();
+        private void Awake()
+        {
+            animator = GetComponent<Animator>(); // ссылку на компомент получаем в Awake.
+        }
+
+        public void OnPointerClick(PointerEventData eventData)
+        {
+            OnClick();
+        }
+
+        private void OnClick()
+        {
+            animator.SetBool("anim", true);
+            loadSprites.Load();
+        }
+
     }
-    
-    private void OnClick()
-    {
-        animator.SetBool("anim", true);
-        loadSprites.load();
-    }
-    
 }

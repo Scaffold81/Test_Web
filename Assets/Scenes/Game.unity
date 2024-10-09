@@ -398,27 +398,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer:
-  - {fileID: 1203451396}
-  - {fileID: 31387251}
-  - {fileID: 685303888}
-  - {fileID: 1968271868}
-  - {fileID: 876495799}
-  - {fileID: 1967889540}
-  - {fileID: 168487877}
-  - {fileID: 612153926}
-  - {fileID: 1029672303}
-  - {fileID: 469538904}
+  - {fileID: 1203451398}
+  - {fileID: 31387253}
+  - {fileID: 685303890}
+  - {fileID: 1968271870}
+  - {fileID: 876495801}
+  - {fileID: 1967889542}
+  - {fileID: 168487879}
+  - {fileID: 612153928}
+  - {fileID: 1029672305}
+  - {fileID: 469538906}
   strings:
-  - "Assets/\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430/Image 1.jpg"
-  - "Assets/\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430/Image 2.jpg"
-  - "Assets/\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430/Image 3.jpg"
-  - "Assets/\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430/Image 4.jpg"
-  - "Assets/\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430/Image 5.jpg"
-  - "Assets/\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430/Image 6.jpg"
-  - "Assets/\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430/Image 7.jpg"
-  - "Assets/\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430/Image 8.jpg"
-  - "Assets/\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430/Image 9.jpg"
-  - "Assets/\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430/Image 10.jpg"
+  - Assets/Art/Images/Image 1.jpg
+  - Assets/Art/Images/Image 2.jpg
+  - Assets/Art/Images/Image 3.jpg
+  - Assets/Art/Images/Image 4.jpg
+  - Assets/Art/Images/Image 5.jpg
+  - Assets/Art/Images/Image 6.jpg
+  - Assets/Art/Images/Image 7.jpg
+  - Assets/Art/Images/Image 8.jpg
+  - Assets/Art/Images/Image 9.jpg
+  - Assets/Art/Images/Image 10.jpg
 --- !u!1 &266573016
 GameObject:
   m_ObjectHideFlags: 0
