@@ -1,37 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Button : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler, IPointerExitHandler, IPointerEnterHandler {
-    bool on;
-    Animator animator;
-    public void OnPointerClick(PointerEventData eventData) {
-        Debug.Log("Click");
-        on = true;
+public class CustomButton : MonoBehaviour, IPointerClickHandler
+{
+    private Animator animator;
+    [SerializeField]
+    private LoadSprites loadSprites;// лучше ручками назначить в инспекторе чем искать по всей сцене
+    
+    private void Awake()
+    {
+        animator = GetComponent<Animator>(); // ссылку на компомент получаем в Awake.
     }
 
-    public void OnPointerDown(PointerEventData eventData) {
-        throw new System.NotImplementedException();
+    public void OnPointerClick(PointerEventData eventData) 
+    {
+        OnClick();
     }
-
-    public void OnPointerEnter(PointerEventData eventData) {
-        throw new System.NotImplementedException();
+    
+    private void OnClick()
+    {
+        animator.SetBool("anim", true);
+        loadSprites.load();
     }
-
-    public void OnPointerExit(PointerEventData eventData) {
-        throw new System.NotImplementedException();
-    }
-
-    public void OnPointerUp(PointerEventData eventData) {
-        throw new System.NotImplementedException();
-    }
-
-    void Update() {
-        if (on) {
-            animator = GetComponent<Animator>();
-            animator.SetBool("anim", true);
-            GameObject.Find("Panel").GetComponent<LoadSprites>().load();
-        }
-    }
+    
 }
